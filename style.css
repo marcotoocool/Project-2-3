@@ -111,7 +111,7 @@ input[type="reset"], input[type="submit"] {
 #form {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 60%;
     background-color: #F3F3E8;
     padding: 1.5em;
     border-radius: 10px;
@@ -202,4 +202,5 @@ footer {
     }
 
 }
+
 
