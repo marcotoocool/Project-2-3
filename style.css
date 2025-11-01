@@ -124,7 +124,7 @@ input[type="text"] {
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
-   border: 1px solid #ffffff;
+   border: 1px solid #D8D8D8;
     display: block;
    
 }
@@ -203,6 +203,7 @@ footer {
     }
 
 }
+
 
 
 
