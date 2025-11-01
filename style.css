@@ -111,7 +111,6 @@ input[type="reset"], input[type="submit"] {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    max-width: 600px;
     background-color: #F3F3E8;
     padding: 1.5em;
     border-radius: 10px;
@@ -187,4 +186,5 @@ footer {
     .description, .description img {
         width: 100%;
     }
+
 }
