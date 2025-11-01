@@ -115,7 +115,6 @@ input[type="reset"], input[type="submit"] {
     background-color: #F3F3E8;
     padding: 1.5em;
     border-radius: 10px;
-    max-width: 60%;
 }
 input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: #8B4513;
@@ -204,6 +203,7 @@ footer {
     }
 
 }
+
 
 
 
