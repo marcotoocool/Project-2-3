@@ -16,6 +16,7 @@ body {
         gap: 0.5em;
 
 }
+
 /* alert box + header style */
 header {
     grid-area: header;
@@ -129,13 +130,16 @@ input[type="text"] {
 label {
     display: block;
 }
+
 /* style for my footer */
 footer {
     grid-area: footer;
     text-align: center;
     background-color: #B7AFA3;
     width: 100%;
+    
 }
+
 /* styles for theee gallery */
 #gallery {
   display: flex;
@@ -155,16 +159,17 @@ footer {
     font-weight: bold;
     padding: 0.2em;
 
-
 }
 .description img {
     width: 100%;
     height: auto;
     
 }
+
 /* trying to add media queries  */
 @media (max-width: 768px) {
     body {
+        
         grid-template-areas:
             "header"
             "alert"
@@ -174,17 +179,27 @@ footer {
         grid-template-columns: 1fr;
     
     }
+    
     aside {
+        
         text-align: center;
+        
     }
+    
     #form {
+        
         flex-direction: column;
     }
+    
     #gallery {
+        
         flex-direction: column;
     }
+    
     .description, .description img {
         width: 100%;
+        
     }
 
 }
+
